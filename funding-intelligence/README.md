@@ -16,6 +16,7 @@ This repository is designed for continuous use by a university research group: l
 - [Dashboard](#dashboard)
 - [How to Use](#how-to-use)
 - [Repository Map](#repository-map)
+- [Recent Evidence Window](#recent-evidence-window)
 - [Funding Categories](#funding-categories)
 - [Filtering Strategy](#filtering-strategy)
 - [Recommended Workflow](#recommended-workflow)
@@ -28,6 +29,7 @@ This repository is designed for continuous use by a university research group: l
 | View | Purpose | Best For |
 | ---- | ------- | -------- |
 | [Funding Calendar 2026](funding-calendar-2026.md) | Yearly scan of likely deadlines | Monthly planning |
+| [Recent Funded Projects and Activities](recent-funded-projects-and-activities.md) | Rolling 3-year evidence base of relevant projects and activities | Proposal positioning and partner intelligence |
 | [Large Strategic Grants](large-strategic-grants.md) | High-value, consortium-scale grants | Group strategy and PI pipeline |
 | [Small and Medium Grants](small-medium-grants.md) | Seed, feasibility, and early-stage grants | Fast proposal development |
 | [Conference and Travel Support](conference-travel-support.md) | Mobility, conferences, visiting stays | PhD, postdoc, and network building |
@@ -38,19 +40,33 @@ This repository is designed for continuous use by a university research group: l
 
 1. Start with [Funding Calendar 2026](funding-calendar-2026.md) to identify the next decision points.
 2. Use the category pages to shortlist opportunities by grant size, TRL, and partner requirements.
-3. Open funder profiles in [foundations/](foundations/) for notes, fit logic, and source links.
-4. Track candidate proposals with [Project Tracking Template](templates/project-tracking-template.md).
-5. Capture early concepts with [Proposal Ideas Template](templates/proposal-ideas-template.md).
-6. Add new funding entries using [Funding Entry Template](templates/funding-entry-template.md).
+3. Check [Recent Funded Projects and Activities](recent-funded-projects-and-activities.md) for evidence, partner patterns, and current positioning.
+4. Open funder profiles in [foundations/](foundations/) for notes, fit logic, and source links.
+5. Track candidate proposals with [Project Tracking Template](templates/project-tracking-template.md).
+6. Capture early concepts with [Proposal Ideas Template](templates/proposal-ideas-template.md).
+7. Add new funding entries using [Funding Entry Template](templates/funding-entry-template.md).
 
 ## Repository Map
 
 | Area | Files |
 | ---- | ----- |
-| Core views | [Calendar](funding-calendar-2026.md), [Large Grants](large-strategic-grants.md), [Small Grants](small-medium-grants.md), [Travel](conference-travel-support.md), [Equipment](equipment-infrastructure.md), [Commercialization](industrial-commercialization.md) |
+| Core views | [Calendar](funding-calendar-2026.md), [Recent Projects and Activities](recent-funded-projects-and-activities.md), [Large Grants](large-strategic-grants.md), [Small Grants](small-medium-grants.md), [Travel](conference-travel-support.md), [Equipment](equipment-infrastructure.md), [Commercialization](industrial-commercialization.md) |
 | Funder profiles | [Innovation Fund Denmark](foundations/innovation-fund-denmark.md), [EUDP](foundations/eudp.md), [DFF](foundations/dff.md), [Energy Cluster Denmark](foundations/energy-cluster-denmark.md), [Horizon Europe](foundations/horizon-europe.md), [Chips JU](foundations/chips-ju.md) |
 | University intelligence | [AAU](universities/aau-funded-projects.md), [DTU](universities/dtu-funded-projects.md), [AU](universities/au-funded-projects.md), [SDU](universities/sdu-funded-projects.md) |
 | Templates | [Funding Entry](templates/funding-entry-template.md), [Project Tracking](templates/project-tracking-template.md), [Proposal Ideas](templates/proposal-ideas-template.md) |
+
+## Recent Evidence Window
+
+Maintain a rolling **3-year list of relevant funded projects and activities** in [Recent Funded Projects and Activities](recent-funded-projects-and-activities.md).
+
+Current window: `2024-2026`.
+
+Include active or recently announced examples from SDU, AAU, DTU, AU, Danish foundations, EU programmes, clusters, and strategic industry partners when they help answer one of these questions:
+
+- Which funders are paying for themes close to SDU-CIE right now?
+- Which universities or companies are active in batteries, converters, AI-energy, semiconductors, or maritime electrification?
+- Which project framings can be reused in new proposals?
+- Which partners should CIE approach before the next call?
 
 ## Funding Categories
 
@@ -156,6 +172,7 @@ flowchart LR
 | --------- | ---------------- | ----- |
 | Calendar | Monthly | Move closed calls to notes; add next round when announced |
 | Funder pages | Quarterly | Refresh programme names, budgets, and eligibility |
+| Recent projects and activities | Quarterly | Maintain a rolling 3-year window; keep active older projects only if strategically relevant |
 | University project pages | Twice per year | Add newly funded projects and partner patterns |
 | Templates | Annually | Keep standardized categories stable |
 
